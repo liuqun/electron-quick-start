@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder --win --ia32"
+    "dist": "electron-builder",
+    "dist-win32": "electron-builder --win --ia32"
   },
   "build": {
     "appId": "com.22tianbo.chromeapp",
